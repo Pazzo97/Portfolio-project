@@ -2,15 +2,12 @@ body {
   background-color: rgb(8, 8, 66);
   font-size: 20px;
   font-family: sans-serif, Arial, Helvetica, sans-serif;
-
 }
 
 .main {
   color: #fff;
   background-color: rgb(8, 8, 66);
   line-height: 30px;
-
-
 }
 
 .header {
@@ -23,19 +20,16 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: -40px !important;
-
 }
 
 .name1-img {
   margin-top: 10px;
   margin: 40px;
-
 }
 
 .joe {
   color: #fff;
   margin: 40px;
-
 }
 
 .vector {
@@ -46,7 +40,6 @@ body {
   display: block;
   padding-top: 1px;
   margin-top: 5px;
-
 }
 
 .name2 {
@@ -63,8 +56,6 @@ body {
   font-size: 60px;
 }
 
-
-
 .job {
   color: white;
   font-size: 23px;
@@ -72,8 +63,6 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
   line-height: 45px !important;
-
-
 }
 
 .description {
@@ -82,7 +71,6 @@ body {
   margin-right: 90px;
   margin-bottom: 50px;
   border-bottom: 2px solid rgb(23, 23, 24);
-
 }
 
 .technologies {
@@ -96,41 +84,34 @@ body {
   margin-left: 40px;
   color: #2b29c2;
   font-size: 20px;
-
 }
 
 .technologies li {
   list-style: none;
   display: flex;
   align-items: center;
-margin-bottom: 20px;
-
+  margin-bottom: 20px;
 }
-
 
 .languages li {
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.ellipse19 img{
-    height: 300px;
-    width: 82px;
-display: flex;
-justify-content: flex-end;
+.ellipse19 img {
+  height: 300px;
+  width: 82px;
+  display: flex;
+  justify-content: flex-end;
 }
-
 
 a, a:hover {
   text-decoration: none;
 }
 
-
-
 .socialbtns, .socialbtns ul, .socialbtns li {
   margin: 0;
   padding: 5px;
-
 }
 
 .socialbtns {
@@ -144,13 +125,11 @@ a, a:hover {
   height: 28px;
   color: #fff0ff;
   background-color: transparent;
-
 }
 
 .fa:hover {
   color: #000;
 }
-
 
 .image-placeholder {
   background-color: #eee;
@@ -161,13 +140,11 @@ a, a:hover {
   margin-top: 50px;
 }
 
-
 .post-stories>p>img {
   height: 35px;
   margin-left: 15px;
   margin-right: 15px;
 }
-
 
 .button {
   background-color: #7e7dc5;
