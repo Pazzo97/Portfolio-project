@@ -1,7 +1,7 @@
 body {
   background-color: rgb(8, 8, 66);
   font-size: 20px;
-  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
 }
 
 .main {
@@ -23,7 +23,6 @@ body {
 }
 
 .name1-img {
-  margin-top: 10px;
   margin: 40px;
 }
 
@@ -33,7 +32,7 @@ body {
 }
 
 .vector {
-  height: .5px;
+  height: 0.5px;
   width: 40px;
   color: white;
   background-color: white;
@@ -47,7 +46,6 @@ body {
 }
 
 .laura2 {
-  margin-top: 90px;
   color: #2b29c2;
   margin-top: 50px;
 }
@@ -59,7 +57,7 @@ body {
 .job {
   color: white;
   font-size: 23px;
-  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   margin-top: 50px;
   margin-bottom: 50px;
   line-height: 45px !important;
@@ -105,11 +103,14 @@ body {
   justify-content: flex-end;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
-.socialbtns, .socialbtns ul, .socialbtns li {
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
   margin: 0;
   padding: 5px;
 }
@@ -140,7 +141,7 @@ a, a:hover {
   margin-top: 50px;
 }
 
-.post-stories>p>img {
+.post-stories > p > img {
   height: 35px;
   margin-left: 15px;
   margin-right: 15px;
