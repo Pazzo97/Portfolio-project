@@ -135,7 +135,7 @@ a:hover {
   color: #000;
 }
 
-.image-placeholder {
+.blank-placeholder {
   background-color: #eee;
   display: flex;
   height: 180px;
