@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(8, 8, 66);
+  background-color: rgb(19, 19, 143);
   font-size: 20px;
   font-family: sans-serif, Arial, Helvetica;
   margin: 0;
@@ -8,8 +8,9 @@ body {
 
 .main {
   color: #fff;
-  background-color: rgb(8, 8, 66);
+  background-color: rgb(19, 19, 143);
   line-height: 30px;
+  font-size: 29px;
 }
 
 .header {
@@ -53,7 +54,7 @@ body {
 }
 
 .laura-name {
-  font-size: 60px;
+  font-size: 47px;
 }
 
 .job {
@@ -70,6 +71,7 @@ body {
   margin-left: 90px;
   margin-right: 90px;
   margin-bottom: 50px;
+  margin-top: 20px;
   border-bottom: 2px solid rgb(23, 23, 24);
 }
 
@@ -78,6 +80,8 @@ body {
   grid-template-columns: 40% 40% 20%;
   grid-gap: 1em 1em;
   margin-left: 50px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid rgb(23, 23, 24);
 }
 
 .technologies h5 {
@@ -135,34 +139,93 @@ a:hover {
   color: #000;
 }
 
+.multi {
+  margin-left: 10%;
+}
+
+.work {
+  text-align: center;
+  color: #5a58e4;
+}
+
+.work-head {
+  color: #5a58e4;
+  border-bottom: 2px solid rgb(23, 23, 24);
+}
+
 .image-placeholder {
   background-color: #eee;
   display: flex;
-  height: 180px;
+  height: 350px;
   margin: 5px;
-  width: 260px;
+  width: 98%;
   margin-top: 50px;
 }
 
 .post-stories > p > img {
   height: 35px;
-  margin-left: 15px;
+  margin-left: -5px;
   margin-right: 15px;
+  position: absolute;
+}
+
+.post-stories > h1 {
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .button {
-  background-color: #7e7dc5;
-  border: none;
-  color: white;
-  padding: 12px 25px;
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
-  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
   display: inline-block;
+  background-color: #7e7dc5;
+}
+
+.button-1 {
+  background-color: #7e7dc5;
+  text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
+  padding: 12px 25px;
+}
+
+.button-1:hover {
+  border: 1px solid #00d7c3;
+  text-decoration: underline #00d7c3;
 }
 
 .textarea {
-  height: 75px;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.contact-form > input {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #5a58e4;
+}
+
+.contact-form > input:hover {
+  text-decoration: underline #00d7c3;
+}
+
+.emailhere {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.emailhere:hover {
+  text-decoration: underline #00d7c3;
+}
+
+.btm-rectangle {
+  margin-top: 50px;
 }
