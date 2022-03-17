@@ -1,37 +1,33 @@
-body {
+html {
   background-color: rgb(19, 19, 143);
-  font-size: 20px;
-  font-family: sans-serif, Arial, Helvetica;
-  margin: 0;
-  padding: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main {
-  color: #fff;
-  background-color: rgb(19, 19, 143);
-  line-height: 30px;
-  font-size: 29px;
+.container {
+  padding: 20px 10%;
+  font-size: medium;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 40px;
-}
-
-.name1 {
-  display: flex;
-  justify-content: space-between;
-  margin-top: -40px !important;
-}
-
-.name1-img {
-  margin: 40px;
-}
-
-.joe {
   color: #fff;
-  margin: 40px;
+  margin-bottom: 50px;
+}
+
+.socialbtns a {
+  text-decoration: none;
+}
+
+.header .logo > a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header .logo > a:hover {
+  text-decoration: underline #fff0ff;
 }
 
 .vector {
@@ -44,74 +40,62 @@ body {
   margin-top: 5px;
 }
 
-.name2 {
+.presentation {
   display: flex;
+  flex-direction: column;
 }
 
-.laura2 {
-  color: #2b29c2;
-  margin-top: 50px;
-}
-
-.laura-name {
-  font-size: 47px;
-}
-
-.job {
-  color: white;
-  font-size: 23px;
-  font-family: sans-serif, Arial, Helvetica;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  line-height: 45px !important;
-}
-
-.description {
+.presentation1 .my-name {
   text-align: center;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-bottom: 50px;
-  margin-top: 20px;
-  border-bottom: 2px solid rgb(23, 23, 24);
+  color: #5d5be4;
+  font-size: 17px;
+  font-weight: 700;
 }
 
-.technologies {
-  display: grid;
-  grid-template-columns: 40% 40% 20%;
-  grid-gap: 1em 1em;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  border-bottom: 2px solid rgb(23, 23, 24);
-}
-
-.technologies h5 {
-  margin-left: 40px;
-  color: #2b29c2;
-  font-size: 20px;
-}
-
-.technologies li {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.languages li {
+.presentation1 .my-job {
+  text-align: center;
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
 
-.ellipse19 img {
-  height: 300px;
-  width: 82px;
-  display: flex;
-  justify-content: flex-end;
+.job-description {
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(188, 221, 240);
 }
 
-a,
-a:hover {
-  text-decoration: none;
+.presentation2 .job-description {
+  text-align: center;
+}
+
+.job-description p {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(23, 23, 24);
+}
+
+.knowledge {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1em 1em;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(23, 23, 24);
+}
+
+.knowledge li {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.knowledge h5 {
+  color: #5d5be4;
+}
+
+.knowledge ul {
+  padding-left: 0;
 }
 
 .socialbtns,
@@ -126,6 +110,7 @@ a:hover {
   list-style: none outside none;
   display: flex;
   justify-content: center;
+  margin-top: 25px;
 }
 
 .socialbtns .fa {
@@ -139,18 +124,10 @@ a:hover {
   color: #000;
 }
 
-.multi {
-  margin-left: 10%;
-}
-
-.work {
-  text-align: center;
-  color: #5a58e4;
-}
-
-.work-head {
+.recent-work {
   color: #5a58e4;
   border-bottom: 2px solid rgb(23, 23, 24);
+  font-size: 25px;
 }
 
 .image-placeholder {
@@ -162,17 +139,44 @@ a:hover {
   margin-top: 50px;
 }
 
-.post-stories > p > img {
-  height: 35px;
-  margin-left: -5px;
-  margin-right: 15px;
-  position: absolute;
+.story-head h2 {
+  margin: 35px 0;
 }
 
-.post-stories > h1 {
-  font-size: 40px;
-  margin-top: 60px;
-  margin-bottom: 50px;
+.story-languages img {
+  height: 25px;
+  margin: 0 15px;
+  margin-bottom: -2px;
+}
+
+.story-languages p {
+  padding-left: 0;
+  margin-top: 30px;
+  padding-bottom: 15px;
+}
+
+.contact-us {
+  margin-top: 20vh;
+}
+
+.contact-header {
+  text-align: center;
+  color: #5a58e4;
+  font-size: 20px;
+}
+
+.contact-paragraph {
+  text-align: center;
+}
+
+.text-field input {
+  height: 40px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.text-field input:hover {
+  text-decoration: underline #00d7c3;
 }
 
 .button {
@@ -200,32 +204,29 @@ a:hover {
   text-decoration: underline #00d7c3;
 }
 
-.textarea {
-  height: 250px;
+textarea {
   width: 100%;
-  margin-bottom: 50px;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
 
-.contact-form > input {
-  height: 30px;
-  width: 100%;
-  margin-bottom: 20px;
-  color: #5a58e4;
-}
-
-.contact-form > input:hover {
-  text-decoration: underline #00d7c3;
-}
-
-.emailhere {
+.contact-btn {
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid rgb(23, 23, 24);
 }
 
-.emailhere:hover {
+.email-here {
+  text-align: center;
+  font-size: 25px;
+  margin-top: -35px;
+}
+
+.email-here :hover {
   text-decoration: underline #00d7c3;
-}
-
-.btm-rectangle {
-  margin-top: 50px;
 }
