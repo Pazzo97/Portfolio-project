@@ -137,16 +137,10 @@ body {
   text-decoration: none;
 }
 
-.m-logo img:hover {
-  background-color: #000;
-}
-
 .fa:hover {
   color: #000;
 }
 
-.m-logo {
-  height: 17.5px;
-  color: #fff0ff;
-  background-color: transparent;
+.m-logo:hover {
+  background-color: #000;
 }
