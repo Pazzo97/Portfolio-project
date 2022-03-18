@@ -1,97 +1,113 @@
-html {
-  background-color: rgb(19, 19, 143);
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #191765;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.top-section {
+  padding: 25px 25px 25px 25px;
+}
+
+.headline {
+  background-image: url('images/topcircles.svg');
+  background-repeat: no-repeat;
 }
 
 .container {
-  padding: 20px 10%;
-  font-size: medium;
+  padding: 25px 25px 25px 25px;
+  font-family: "Roboto", sans-serif;
 }
 
-.header {
+.navigation {
   display: flex;
   justify-content: space-between;
-  color: #fff;
-  margin-bottom: 50px;
 }
 
-.socialbtns a {
+.navigation .logo > a {
+  font-size: 18px;
+  line-height: 16px;
+  line-height: 76%;
+  text-align: center;
+  letter-spacing: 3%;
   text-decoration: none;
-}
-
-.header .logo > a {
   color: #fff;
-  font-size: 16px;
-  text-decoration: none;
 }
 
-.header .logo > a:hover {
+.navigation .logo > a:hover {
   text-decoration: underline #fff0ff;
 }
 
-.vector {
-  height: 0.5px;
-  width: 40px;
-  color: white;
-  background-color: white;
-  display: block;
-  padding-top: 1px;
-  margin-top: 5px;
-}
-
-.presentation {
-  display: flex;
-  flex-direction: column;
-}
-
-.presentation1 .my-name {
+.my-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 72px;
+  line-height: 200%;
   text-align: center;
-  color: #5d5be4;
-  font-size: 17px;
-  font-weight: 700;
+  vertical-align: top;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
 }
 
-.presentation1 .my-job {
+.my-name h1 {
+  padding-top: 25px;
+}
+
+.my-job {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 44px;
   text-align: center;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
+  letter-spacing: 1px;
+  color: #edecff;
 }
 
-.job-description {
+.my-job h1 {
+  margin-top: -26px;
+  margin-bottom: 45px;
+}
+
+.my-job-description p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 140%;
   text-align: center;
-  margin-top: 25px;
-  color: rgb(188, 221, 240);
+  vertical-align: top;
+  color: #c8c8d4;
 }
 
-.presentation2 .job-description {
-  text-align: center;
-}
-
-.job-description p {
-  margin-top: 10px;
-  padding-bottom: 30px;
-  border-bottom: 2px solid rgb(23, 23, 24);
+.vector img {
+  width: 100%;
+  height: 2px;
+  margin-top: 30px;
 }
 
 .knowledge {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 1em 1em;
-  margin-top: 10px;
-  padding-bottom: 30px;
-  border-bottom: 2px solid rgb(23, 23, 24);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.knowledge > * {
+  width: 160px;
 }
 
 .knowledge li {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 137%;
+  text-align: left;
   list-style: none;
   margin-top: 10px;
   padding-left: 0;
+  color: #f5f5ff;
 }
 
 .knowledge h5 {
-  color: #5d5be4;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  color: #9490ff;
 }
 
 .knowledge ul {
@@ -118,115 +134,19 @@ html {
   height: 28px;
   color: #fff0ff;
   background-color: transparent;
+  text-decoration: none;
+}
+
+.socialbtns .m-logo img:hover {
+  color: #000;
 }
 
 .fa:hover {
   color: #000;
 }
 
-.recent-work {
-  color: #5a58e4;
-  border-bottom: 2px solid rgb(23, 23, 24);
-  font-size: 25px;
-}
-
-.image-placeholder {
-  background-color: #eee;
-  display: flex;
-  height: 350px;
-  margin: 5px;
-  width: 98%;
-  margin-top: 50px;
-}
-
-.story-head h2 {
-  margin: 35px 0;
-}
-
-.story-languages img {
-  height: 25px;
-  margin: 0 15px;
-  margin-bottom: -2px;
-}
-
-.story-languages p {
-  padding-left: 0;
-  margin-top: 30px;
-  padding-bottom: 15px;
-}
-
-.contact-us {
-  margin-top: 20vh;
-}
-
-.contact-header {
-  text-align: center;
-  color: #5a58e4;
-  font-size: 20px;
-}
-
-.contact-paragraph {
-  text-align: center;
-}
-
-.text-field input {
-  height: 40px;
-  width: 100%;
-  margin-top: 25px;
-}
-
-.text-field input:hover {
-  text-decoration: underline #00d7c3;
-}
-
-.button {
-  width: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  color: #fff;
-  font-weight: 400;
-  cursor: pointer;
-  display: inline-block;
-  background-color: #7e7dc5;
-}
-
-.button-1 {
-  background-color: #7e7dc5;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  padding: 12px 25px;
-}
-
-.button-1:hover {
-  border: 1px solid #00d7c3;
-  text-decoration: underline #00d7c3;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-}
-
-.contact-btn {
-  text-align: center;
-  margin-top: 40px;
-  padding-bottom: 70px;
-  border-bottom: 2px solid rgb(23, 23, 24);
-}
-
-.email-here {
-  text-align: center;
-  font-size: 25px;
-  margin-top: -35px;
-}
-
-.email-here :hover {
-  text-decoration: underline #00d7c3;
+.m-logo {
+  height: 17.5px;
+  color: #fff0ff;
+  background-color: transparent;
 }
