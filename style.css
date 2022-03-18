@@ -137,8 +137,8 @@ body {
   text-decoration: none;
 }
 
-.socialbtns .m-logo img:hover {
-  color: #000;
+.m-logo img:hover {
+  background-color: #000;
 }
 
 .fa:hover {
