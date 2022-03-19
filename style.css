@@ -230,20 +230,25 @@ body {
 
 .story-languages img {
   height: 36px;
-  margin: 0 15px;
-  margin-bottom: -12px;
+  margin: -10px 15px 0 15px;
 }
 
-.story-languages p {
-  font-family: Inter, Roboto, sans-serif;
-  font-size: 15px;
+.story-languages li {
+  list-style: none;
+  display: inline;
+  font-family: Inter, Roboto, Arial, sans-serif;
+  font-size: 14px;
   line-height: 20px;
   line-height: 110%;
   text-align: left;
   vertical-align: top;
-  color: #fff;
-  margin-left: 20px;
-  margin-bottom: 45px;
+  color: #dcdce8;
+ }
+
+.story-languages {
+  margin-left: -20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .button {
@@ -278,9 +283,9 @@ body {
 .contact-header {
   font-weight: 700;
   font-family: Roboto, sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 44px;
-  line-height: 17%;
+  line-height: 110%;
   text-align: center;
   color: #9390ff;
   text-transform: uppercase;
