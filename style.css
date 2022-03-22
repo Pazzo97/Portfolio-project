@@ -11,6 +11,8 @@ body {
 .headline {
   background-image: url('images/topcircles.svg');
   background-repeat: no-repeat;
+  background-position-y: 100px;
+  background-size: 100%;
 }
 
 .container {
@@ -148,6 +150,8 @@ body {
 .work-section {
   background-image: url('images/portfolio-2.svg');
   background-repeat: no-repeat;
+  background-position-y: 100px;
+  background-size: 100%;
 }
 
 .container2 {
