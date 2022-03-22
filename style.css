@@ -360,3 +360,18 @@ textarea {
     grid-template-columns: 100%;
   }
 }
+.text-field input {
+  font-family: Inter, Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  line-height: 132%;
+  text-align: left;
+  color: #81818c;
+  height: 40px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.text-field input:hover {
+  text-decoration: underline #00d7c3;
+}
