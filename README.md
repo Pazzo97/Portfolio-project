@@ -32,7 +32,7 @@
 
 ## 🤝 Contributing
 
-Contributions.
+Contributions. made by Emmanuell Ikpe and Saraza Toussaint
 
 ## Show your support
 
