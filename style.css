@@ -212,6 +212,20 @@ body {
   margin-top: 50px;
 }
 
+.post-story {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1em 1em;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .post-story {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+
 .post-title h2 {
   font-family: Roboto, sans-serif;
   font-size: 32px;
@@ -270,7 +284,7 @@ body {
 .button-1 {
   background-color: #7e7dc5;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 13px;
   margin: 4px 2px;
   padding: 12px 25px;
 }
@@ -305,6 +319,10 @@ body {
   color: #f5f5ff;
 }
 
+.text-field {
+  margin-right: 8px;
+}
+
 .text-field input {
   font-family: Inter, Roboto, sans-serif;
   font-size: 15px;
@@ -319,6 +337,7 @@ body {
 
 .text-field input:hover {
   text-decoration: underline #00d7c3;
+  text-decoration-thickness: 2px;
 }
 
 .contact-btn {
@@ -338,40 +357,18 @@ body {
 }
 
 textarea {
-  width: 100%;
+  width: 97.5%;
   height: 150px;
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
   font-size: 16px;
   resize: none;
+  margin-top: 30px;
+  margin-right: 8px;
 }
 
-.post-story {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 1em 1em;
-  position: relative;
-}
-
-@media only screen and (max-width: 600px) {
-  .post-story {
-    display: grid;
-    grid-template-columns: 100%;
-  }
-}
-.text-field input {
-  font-family: Inter, Roboto, sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  line-height: 132%;
-  text-align: left;
-  color: #81818c;
-  height: 40px;
-  width: 100%;
-  margin-top: 25px;
-}
-
-.text-field input:hover {
+.text-area textarea:hover {
   text-decoration: underline #00d7c3;
+  text-decoration-thickness: 2px;
 }
