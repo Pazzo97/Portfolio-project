@@ -340,6 +340,10 @@ body {
   text-decoration-thickness: 2px;
 }
 
+input[type="email"]::placeholder {
+  color: #191765;
+}
+
 .contact-btn {
   text-align: center;
   margin-top: 40px;
