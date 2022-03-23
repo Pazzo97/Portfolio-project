@@ -22,6 +22,14 @@
 - GitHub: [@Pazzo97](https://github.com/Pazzo97)
 - LinkedIn: [Patrick MUKUNZI](https://www.linkedin.com/in/patrick-mukunzi-8389861a9/)
 
+👤 **Author2**
+
+- GitHub: [@iammanny](https://github.com/iammanny)
+
+👤 **Author3**
+
+- GitHub: [@sarazaToussaint](https://github.com/sarazaToussaint)
+
 ## 🤝 Contributing
 
 Contributions.
