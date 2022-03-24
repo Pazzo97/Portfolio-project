@@ -447,6 +447,7 @@ textarea {
 
   .knowledge {
     display: flex;
+    justify-content: space-evenly;
   }
 
   .knowledge ul li {
@@ -550,6 +551,35 @@ textarea {
     resize: none;
     margin-top: 30px;
     margin-right: 8px;
+  }
+
+  .desktop {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 23px;
+  }
+
+  .desk-but {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .name-input {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  input[type="text"]::placeholder {
+    color: #191765;
+  }
+
+  #lname input[type="text"]::placeholder {
+    color: #6d6c70;
+  }
+
+  input[type="email"]::placeholder {
+    color: #6d6c70;
   }
 }
 
