@@ -581,6 +581,21 @@ textarea {
   input[type="email"]::placeholder {
     color: #6d6c70;
   }
+
+  .button2 {
+    width: 160px;
+    height: 48px;
+    color: #fff;
+    text-align: center;
+    background-color: #9390ff;
+    border: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    line-height: 137%;
+    vertical-align: top;
+    letter-spacing: 1.5px;
+  }
 }
 
 .combination {
