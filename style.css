@@ -35,10 +35,14 @@ body {
   letter-spacing: 3%;
   text-decoration: none;
   color: #fff;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  /* color: #54b3d6; */
 }
 
 .navigation .logo > a:hover {
-  text-decoration: underline #00d7c3;
+  color: rgb(216, 18, 183);
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
 }
 
 .knowledge li {
@@ -182,6 +186,13 @@ body {
 .my-job h1 {
   margin-top: -26px;
   margin-bottom: 45px;
+  box-shadow: inset 0 0 0 0 #fff;
+  transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.my-job h1:hover {
+  box-shadow: inset 800px 0 0 0 #161718;
+  font-size: 50px;
 }
 
 .my-job-description p {
@@ -280,6 +291,24 @@ body {
   height: 350px;
   width: auto;
   margin-top: 50px;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+
+.image-placeholder:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .post-title h2 {
@@ -333,6 +362,11 @@ body {
 .button-1:hover {
   background-color: #8db7bd;
   color: rgb(78, 18, 102);
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #025477;
 }
 
 .contact-us1 {
@@ -358,6 +392,21 @@ body {
   text-align: center;
   vertical-align: top;
   color: #f5f5ff;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .text-field {
