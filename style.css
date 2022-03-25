@@ -318,6 +318,7 @@ body {
   cursor: pointer;
   display: inline-block;
   background-color: #7e7dc5;
+  cursor: pointer;
 }
 
 .button-1 {
@@ -326,11 +327,12 @@ body {
   font-size: 13px;
   margin: 4px 2px;
   padding: 12px 25px;
+  transition: 0.5s;
 }
 
 .button-1:hover {
-  border: 1px solid #00d7c3;
-  text-decoration: underline #00d7c3;
+  background-color: #8db7bd;
+  color: rgb(78, 18, 102);
 }
 
 .contact-us1 {
