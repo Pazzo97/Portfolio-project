@@ -36,13 +36,12 @@ body {
   text-decoration: none;
   color: #fff;
   box-shadow: inset 0 0 0 0 #54b3d6;
-  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
-  /* color: #54b3d6; */
+  transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .navigation .logo > a:hover {
   color: rgb(216, 18, 183);
-  box-shadow: inset 200px 0 0 0 #54b3d6;;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
 }
 
 .knowledge li {
@@ -183,6 +182,10 @@ body {
   color: #edecff;
 }
 
+.recent-work-header h1 {
+  margin-bottom: 15px;
+}
+
 .my-job h1 {
   margin-top: -26px;
   margin-bottom: 45px;
@@ -281,29 +284,25 @@ body {
   margin-bottom: 0;
 }
 
-.recent-work-header h1 {
-  margin-bottom: 15px;
-}
-
 .image-placeholder {
   background-color: #f9f9f9;
   display: flex;
   height: 350px;
   width: auto;
   margin-top: 50px;
-  transition: 0.70s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
 }
 
 .image-placeholder:hover {
-  transition: 0.70s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
@@ -347,7 +346,6 @@ body {
   cursor: pointer;
   display: inline-block;
   background-color: #7e7dc5;
-  cursor: pointer;
 }
 
 .button-1 {
@@ -363,7 +361,7 @@ body {
   background-color: #8db7bd;
   color: rgb(78, 18, 102);
   border: 1px solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #025477;
