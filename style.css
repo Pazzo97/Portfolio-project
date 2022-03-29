@@ -193,6 +193,26 @@ body {
   transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
 }
 
+.work h2 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #a2a3ae;
+  padding-left: 8px;
+}
+
+.post-title h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 117%;
+  text-align: left;
+  color: #fff;
+  margin: 35px 0;
+}
+
 .my-job h2:hover {
   box-shadow: inset 800px 0 0 0 #161718;
   font-size: 50px;
@@ -263,16 +283,6 @@ body {
   justify-content: center;
 }
 
-.work h2 {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 32px;
-  text-align: center;
-  color: #a2a3ae;
-  padding-left: 8px;
-}
-
 .recent-work-header {
   font-family: Roboto, sans-serif;
   font-size: 28px;
@@ -290,16 +300,6 @@ body {
   height: 350px;
   width: auto;
   margin-top: 50px;
-}
-
-.post-title h2 {
-  font-family: Roboto, sans-serif;
-  font-size: 32px;
-  line-height: 44px;
-  line-height: 117%;
-  text-align: left;
-  color: #fff;
-  margin: 35px 0;
 }
 
 .story-paragraph {
