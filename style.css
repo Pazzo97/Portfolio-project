@@ -660,10 +660,12 @@ nav .logo {
     display: none;
   }
 
+  #envelope {
+    display: none;
+  }
+
   .navLink {
     font-size: 40px !important;
-    display: block;
-    position: relative;
   }
 
   .navLink::after {
@@ -672,13 +674,18 @@ nav .logo {
     height: 12px;
     fill: #fff;
     position: relative;
-    right: 0px;
-    justify-content: end;
+    right: 0;
   }
 
   nav .mainMenu li a {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    line-height: 114%;
+    text-align: left;
     display: flex;
     justify-content: space-between;
+    margin-right: 30px;
   }
 
   nav .mainMenu .closeMenu {
