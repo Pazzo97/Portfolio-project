@@ -10,3 +10,5 @@ function close() {
 }
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
+const navLink = document.querySelectorAll('.navLink');
+navLink.forEach((n) => n.addEventListener('click', close));
