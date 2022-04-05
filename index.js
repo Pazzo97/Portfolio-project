@@ -20,16 +20,19 @@ navLink.forEach((n) => n.addEventListener('click', close));
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
+
 function openModal(modal) {
   if (modal == null) return;
   modal.classList.add('active');
   overlay.classList.add('active');
 }
+
 function closeModal(modal) {
   if (modal == null) return;
   modal.classList.remove('active');
   overlay.classList.remove('active');
 }
+
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal = document.querySelector(button.dataset.modalTarget);
@@ -49,3 +52,73 @@ closeModalButtons.forEach((button) => {
     closeModal(modal);
   });
 });
+
+const portfolioList = [{
+  id: 1,
+  name: 'Multi-Post Stories',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  image: '',
+  technologies: ['CSS', 'Html', 'Bootstrap', 'Ruby'],
+  live: 'https://github.com/Pazzo97/Portfolio-project',
+  source: 'https://github.com/Pazzo97/Portfolio-project',
+},
+{
+  id: 2,
+  name: 'Multi-Post Stories',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  image: '',
+  technologies: ['CSS', 'Html', 'Bootstrap', 'Ruby'],
+  live: 'https://github.com/Pazzo97/Portfolio-project',
+  source: 'https://github.com/Pazzo97/Portfolio-project',
+},
+{
+  id: 3,
+  name: 'Multi-Post Stories',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  image: '',
+  technologies: ['CSS', 'Html', 'Bootstrap', 'Ruby'],
+  live: 'https://github.com/Pazzo97/Portfolio-project',
+  source: 'https://github.com/Pazzo97/Portfolio-project',
+},
+{
+  id: 4,
+  name: 'Multi-Post Stories',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  image: '',
+  technologies: ['CSS', 'Html', 'Bootstrap', 'Ruby'],
+  live: 'https://github.com/Pazzo97/Portfolio-project',
+  source: 'https://github.com/Pazzo97/Portfolio-project',
+}];
+
+const portfolioSection = document.getElementById('works');
+portfolioSection.innerHTML = portfolioList.map((portfolio) => `
+    <div class="post-story">
+          <div class="image-placeholder"></div>
+
+          <div class="story">
+            <div class="post-title">
+              <h2>${portfolio.name}</h2>
+            </div>
+
+            <div class="story-paragraph">
+              <p>
+               ${portfolio.description}
+              </p>
+            </div>
+
+            <div class="desktop-story">
+              <div class="story-languages">
+           
+              <ul class="desktop">
+              ${portfolio.technologies.map((tech) => `<li>${tech}</li><li>
+                    <img class="rectangle" src="images/Rectangle70.png" alt="rectangle" />
+                  </li>`).join('')}
+                </ul>
+              </div>
+            </div>
+            <div class="story-button ${portfolio.id % 2 === 0 ? 'desk-but' : ''}">
+              <button class="button button-1" type="submit">See Project</button>
+            </div>
+          </div>
+        </div>
+  `).join('');
