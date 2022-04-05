@@ -108,13 +108,15 @@ portfolioSection.innerHTML = portfolioList.map((portfolio) => {
                   </ul>
                 </div>
                 <div class="popupButton">
-                  <button type="button" class="button button-1">
+                  <button type="button" class="button button-1 modal-btn">
                   <a href="${portfolio.live}">
-                    See Live <img src="images/see-live.svg" alt="see live"></a>
+                    See Live </a>
+                    <img src="images/see-live.svg" alt="see live">
                   </button>
-                  <button type="button" class="button button-1">
+                  <button type="button" class="button button-1 modal-btn">
                   <a href="${portfolio.source}">
-                    See Source <img src="images/gitHub.svg" alt="see live"></a>
+                    See Source </a>
+                    <img src="images/gitHub.svg" alt="see live">
                   </button>
                 </div>
               </div>
@@ -159,4 +161,12 @@ closeModalButtons.forEach((button) => {
     const modal = button.closest('.modal');
     closeModal(modal);
   });
+});
+
+window.addEventListener('click', (e) => {
+  const modalSection = document.querySelector('.modal.active');
+  if (e.target === modalSection) {
+    modalSection.classList.remove('active');
+    overlay.classList.remove('active');
+  }
 });
