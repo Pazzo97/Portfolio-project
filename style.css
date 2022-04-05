@@ -288,12 +288,12 @@ body {
   background-color: #7e7dc5;
   text-decoration: none;
   height: 48px;
-  width: 106px;
-  left: 0px;
+  width: 124px;
+  left: 0;
   top: 357px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 12px;
-  border: none;  
+  border: none;
 }
 
 .button-1:hover {
@@ -565,6 +565,30 @@ textarea {
     vertical-align: top;
     letter-spacing: 1.5px;
   }
+
+  .modalBox {
+    width: 80% !important;
+  }
+
+  .modal-header {
+    width: 95% !important;
+  }
+
+  .modal-body > p {
+    width: 75% !important;
+    margin: 0 auto;
+  }
+
+  .modal-picture > img {
+    width: 95% !important;
+    object-fit: cover !important;
+    height: 400px;
+    background-size: 100% 100%;
+  }
+
+  .modalBox .popupButton {
+    margin-bottom: 80px !important;
+  }
 }
 
 .combination {
@@ -684,4 +708,128 @@ nav .logo {
     background: none;
     font-size: 16px;
   }
+
+  .popupButton {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+    gap: 15px;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid #fff;
+  z-index: 10;
+  overflow: auto;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 48px 48px rgba(104, 105, 121, 0.08);
+  color: #fff;
+  background: #191765;
+}
+
+.modalBox {
+  width: 90%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #2e3269;
+  padding-bottom: 15px;
+}
+
+.modalBox .story-languages {
+  margin-bottom: 30px !important;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  width: 226px;
+  height: 58px;
+  left: 0;
+  top: 0;
+}
+
+.modal-header .title {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: start !important;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.modal-body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modalBox > .story-languages {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+.popupButton {
+  width: fit-content !important;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 15px;
 }
