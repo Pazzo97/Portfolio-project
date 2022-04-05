@@ -5,10 +5,12 @@ const openMenu = document.querySelector('.openMenu');
 function show() {
   mainMenu.style.display = 'flex';
   mainMenu.style.top = '0';
+  mainMenu.style.paddingTop = '80px';
 }
 
 function close() {
   mainMenu.style.top = '-100%';
+  mainMenu.style.paddingTop = '0';
 }
 
 openMenu.addEventListener('click', show);
