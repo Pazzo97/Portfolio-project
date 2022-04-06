@@ -144,7 +144,6 @@ function closeModal(modal) {
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal = document.querySelector(button.dataset.modalTarget);
-    // eslint-disable-next-line no-use-before-define
     openModal(modal);
   });
 });
