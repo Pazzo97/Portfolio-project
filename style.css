@@ -561,13 +561,11 @@ textarea {
 
   .desktop {
     display: flex;
-    flex-direction: row-reverse;
     margin-left: 23px;
-    justify-content: flex-end;
   }
 
   .reverse {
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 
   .desk-but {
