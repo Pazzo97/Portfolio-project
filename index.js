@@ -169,12 +169,12 @@ window.addEventListener('click', (e) => {
 });
 
 const form = document.getElementById('form');
-const feedback = document.getElementById('feedback')
+const feedback = document.getElementById('feedback');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  const email = document.getElementById('email2').value;
-  if (email !== email.toLowerCase()){
-    feedback.innerText = 'Please enter your email in lowercase';
+  const email = document.getElementById('email').value;
+  if (email !== email.toLowerCase()) {
+    feedback.innerText = 'Please enter your email in lowercase!';
     return;
   }
   form.submit();
