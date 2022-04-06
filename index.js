@@ -73,7 +73,7 @@ portfolioSection.innerHTML = portfolioList.map((portfolio) => `
               <div class="desktop-story">
                 <div class="story-languages">
 
-                <ul class="desktop">
+                <ul class="desktop ${portfolio.id % 2 === 0 ? 'reverse' : ''}">
                 ${portfolio.technologies.map((tech) => `<li>${tech}</li><li>
                       <img class="rectangle" src="images/Rectangle70.png" alt="rectangle" />
                     </li>`).join('')}
