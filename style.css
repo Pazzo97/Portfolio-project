@@ -98,24 +98,24 @@ body {
   .menu {
     display: none;
   }
-  
+
   .headline {
     background-image: url('images/topcircles.svg');
     background-repeat: no-repeat;
     background-position-y: 100px;
     background-size: 100%;
   }
-  
+
   .knowledge {
     display: flex;
     flex-wrap: wrap;
     padding-left: 5px;
   }
-  
+
   .social-desktop {
     display: none;
   }
-  
+
   .container4 {
     display: none;
   }
@@ -423,50 +423,50 @@ textarea {
     display: none;
     cursor: pointer;
   }
-  
+
   .mobile-text {
     display: none;
   }
-  
+
   .social-arrow {
     display: none;
   }
-  
+
   .headline {
     background-image: url('images/two-circles-header.png');
     background-repeat: no-repeat;
     background-position-y: 100px;
     background-size: 100%;
   }
-  
+
   .work-section {
     background-image: url('images/Group65@2x.png');
     background-repeat: no-repeat;
     background-position-y: 100px;
     background-size: 100%;
   }
-  
+
   .container {
     padding-left: 230px;
     padding-right: 230px;
   }
-  
+
   .knowledge {
     display: flex;
     justify-content: space-evenly;
   }
-  
+
   .knowledge ul li {
     margin-top: 25px;
   }
-  
+
   .social-desktop {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
     margin-bottom: 60px;
   }
-  
+
   .work-desk {
     display: flex;
     font-family: Inter, "Roboto", Arial, sans-serif;
@@ -477,7 +477,7 @@ textarea {
     vertical-align: top;
     color: #dcdce8;
   }
-  
+
   .post-story {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -485,68 +485,68 @@ textarea {
     position: relative;
     margin-top: 25px;
   }
-  
+
   .multi-post-stories {
     padding-left: 40px;
     padding-right: 40px;
   }
-  
+
   .multi-post-stories > div:nth-child(2) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: dense;
     direction: rtl;
   }
-  
+
   .multi-post-stories > div:nth-child(4) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: dense;
     direction: rtl;
   }
-  
+
   .multi-post-stories .image-placeholder {
     margin-top: 40px;
     height: 379px;
   }
-  
+
   .story-languages ul {
     margin-bottom: -22px;
   }
-  
+
   .end {
     display: flex;
     justify-content: center;
   }
-  
+
   .btn2 ul li {
     margin-left: -20px;
   }
-  
+
   .email-here {
     margin-top: 30px;
     margin-left: 10px;
     color: #fff;
   }
-  
+
   .email-here p {
     font-size: 16px;
     margin-top: 8px;
   }
-  
+
   .vector {
     margin-top: 50px;
   }
-  
+
   .container3 {
     display: none;
   }
-  
+
   .contact-us2 {
     padding: 100px 200px 0 200px;
     margin-bottom: -120px;
   }
-  
+
   textarea {
     width: 98.5%;
     height: 150px;
@@ -558,41 +558,41 @@ textarea {
     margin-top: 30px;
     margin-right: 8px;
   }
-  
+
   .desktop {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 23px;
     justify-content: flex-end;
   }
-  
+
   .reverse {
     justify-content: flex-start;
   }
-  
+
   .desk-but {
     display: flex;
     flex-direction: row-reverse;
   }
-  
+
   .name-input {
     display: flex;
     flex-direction: row;
     gap: 9px;
   }
-  
+
   input[type="text"]::placeholder {
     color: #191765;
   }
-  
+
   #lname input[type="text"]::placeholder {
     color: #6d6c70;
   }
-  
+
   input[type="email"]::placeholder {
     color: #6d6c70;
   }
-  
+
   .button2 {
     width: 160px;
     height: 48px;
@@ -607,27 +607,27 @@ textarea {
     vertical-align: top;
     letter-spacing: 1.5px;
   }
-  
+
   .modalBox {
     width: 80%;
   }
-  
+
   .modal-header {
     width: 95%;
   }
-  
+
   .modal-body > p {
     width: 75%;
     margin: 0 auto;
   }
-  
+
   .modal-picture > img {
     width: 95%;
     object-fit: cover;
     height: 400px;
     background-size: 100% 100%;
   }
-  
+
   .modalBox .popupButton {
     margin-bottom: 80px;
   }
@@ -700,11 +700,11 @@ nav .logo {
     background-size: 100%;
     display: none;
   }
-  
+
   #envelope {
     display: none;
   }
-  
+
   .navLink {
     font-family: "Roboto", sans-serif, Arial;
     font-size: 24px;
@@ -713,7 +713,7 @@ nav .logo {
     text-align: left;
     color: #edecff;
   }
-  
+
   .navLink::after {
     content: url("images/right.svg");
     width: 12px;
@@ -722,7 +722,7 @@ nav .logo {
     position: relative;
     right: 0;
   }
-  
+
   nav .mainMenu li a {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 24px;
@@ -733,7 +733,7 @@ nav .logo {
     justify-content: space-between;
     margin-right: 30px;
   }
-  
+
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
@@ -741,16 +741,16 @@ nav .logo {
     right: 20px;
     margin-top: 25px;
   }
-  
+
   nav .openMenu {
     display: contents;
   }
-  
+
   nav .mainMenu li a:hover {
     background: none;
     font-size: 16px;
   }
-  
+
   .popupButton {
     display: flex;
     flex-direction: column !important;
@@ -758,7 +758,7 @@ nav .logo {
     margin-bottom: 10px;
     gap: 15px;
   }
-  
+
   .destop-text {
     display: none;
   }
