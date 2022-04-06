@@ -344,7 +344,7 @@ body {
 }
 
 .text-field {
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 .text-field input {
@@ -572,12 +572,6 @@ textarea {
   .desk-but {
     display: flex;
     flex-direction: row-reverse;
-  }
-  
-  .name-input {
-    display: flex;
-    flex-direction: row;
-    gap: 9px;
   }
   
   input[type="text"]::placeholder {
