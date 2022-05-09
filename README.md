@@ -1,12 +1,13 @@
 # Portfolio building project
 
-> This Portfolio project is about the highlights of software development that Laura has and shows the project that she has done in different languages
+> This Portfolio project is about the highlights of software development that Laura has and shows the projects that she has done in different languages, you can click on them to expand and read more about them. It is compatible with different screen sizes.
 
 
 ## Built With
 
-- Html and Css
-- Icons
+- Html 
+- Css
+- Javascript
 
 
 ## Getting Started
