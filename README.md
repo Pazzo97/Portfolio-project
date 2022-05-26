@@ -10,9 +10,9 @@
 - Javascript
 
 
-## Getting Started
+## Live Demo
 
-**This is the link to the deployed page on github https://pazzo97.github.io/Portfolio-project/**
+- [Click here](https://pazzo97.github.io/Portfolio-project)
 
 
 ## Authors
